@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Generated output / diagnostics
+output/
+output_test/
+*.json.tmp
+
+# Legacy data folders + GT CSVs outside the minimal structure
+data/batch1_1/
+data/batch1_2/
+data/batch1_3/
+data/*.csv
+
+# Stray invoice copies at repo root
+/batch1-*.jpg
+/batch2-*.jpg
+/batch3-*.jpg
+
+# Not part of the minimal repo
+evaluate.py
+prompt.md
+scripts/
+docs/
+
+# IDE
+.idea/
+
+# Docs binaries
+*.docx
+*.word
+
+# OS
+.DS_Store
+Thumbs.db
