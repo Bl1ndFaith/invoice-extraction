@@ -1,0 +1,14 @@
+# Core ML
+torch>=2.5,<2.6
+transformers==4.46.3
+accelerate>=0.26
+seqeval>=1.2
+
+# Vision / OCR
+opencv-python-headless>=4.9
+pytesseract>=0.3.10
+pillow>=10.0
+numpy>=1.24,<2.0
+
+# Utilities
+tqdm>=4.66

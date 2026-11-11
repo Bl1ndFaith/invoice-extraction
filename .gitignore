@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ML artifacts
+runs/
+cache/
+*.safetensors
+*.bin
+pytorch_model*.bin
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+output/
+output_test/
+
+# Data (not uploaded per project policy)
+data/
+data_test/
+
+# Local backups and scratch/debug scripts
+_backup/
+_dataset_sample/
+_debug*.py
+_test_*.py
+_smoke_dataset.py
